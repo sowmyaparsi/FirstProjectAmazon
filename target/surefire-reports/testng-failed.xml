@@ -1,78 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" parallel="tests" name="Test(failed)" verbose="0">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="firstpackage.Project_First.Testcase9_Add2Shoppingcart">
+      <class name="firstpackage.Project_First.Testcase1_SuuccessfulRegister">
         <methods>
           <include name="launch"/>
           <include name="quit"/>
-          <include name="testcase9_addshoppingcart"/>
+          <include name="Testcase1_registerintoaccount"/>
         </methods>
-      </class> <!-- firstpackage.Project_First.Testcase9_Add2Shoppingcart -->
-      <class name="firstpackage.Project_First.Testcase8_SortingSearchproduct">
-        <methods>
-          <include name="testcase8_sortingsearch"/>
-          <include name="launch"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- firstpackage.Project_First.Testcase8_SortingSearchproduct -->
-      <class name="firstpackage.Project_First.Testcase12_SelectEachPayment">
-        <methods>
-          <include name="launch"/>
-          <include name="testcase12_selectpayment"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- firstpackage.Project_First.Testcase12_SelectEachPayment -->
-      <class name="firstpackage.Project_First.Testcase5_SearchingItem">
-        <methods>
-          <include name="launch"/>
-          <include name="quit"/>
-          <include name="testcase5_searching" invocation-numbers="0 1 2 3"/>
-        </methods>
-      </class> <!-- firstpackage.Project_First.Testcase5_SearchingItem -->
-      <class name="firstpackage.Project_First.Testcase2_LoginWithValidCredential">
-        <methods>
-          <include name="launch"/>
-          <include name="Testcase2_loginwithvalidcred"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- firstpackage.Project_First.Testcase2_LoginWithValidCredential -->
-      <class name="firstpackage.Project_First.Testcase3_LoginwithInvalidCredential">
-        <methods>
-          <include name="launch"/>
-          <include name="Testcase3_loginwithinvalid"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- firstpackage.Project_First.Testcase3_LoginwithInvalidCredential -->
-      <class name="firstpackage.Project_First.Testcase14_GiveRatings">
-        <methods>
-          <include name="testcase14_givingrating"/>
-          <include name="launch"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- firstpackage.Project_First.Testcase14_GiveRatings -->
-      <class name="firstpackage.Project_First.Testcase11_CompleteCheckout">
-        <methods>
-          <include name="launch"/>
-          <include name="testcase11_completechckout"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- firstpackage.Project_First.Testcase11_CompleteCheckout -->
-      <class name="firstpackage.Project_First.Testcase6_SearchingVthFilters">
-        <methods>
-          <include name="launch"/>
-          <include name="testcase6_searchingwithfilters"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- firstpackage.Project_First.Testcase6_SearchingVthFilters -->
-      <class name="firstpackage.Project_First.Testcase10_UpdateQuatitiesandRemovingCart">
-        <methods>
-          <include name="testcase10_updateandremoveincart"/>
-          <include name="launch"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- firstpackage.Project_First.Testcase10_UpdateQuatitiesandRemovingCart -->
+      </class> <!-- firstpackage.Project_First.Testcase1_SuuccessfulRegister -->
       <class name="firstpackage.Project_First.Testcase13_CouponCode">
         <methods>
           <include name="launch"/>
@@ -80,6 +18,83 @@
           <include name="quit"/>
         </methods>
       </class> <!-- firstpackage.Project_First.Testcase13_CouponCode -->
+      <class name="firstpackage.Project_First.Testcase8_SortingSearchproduct">
+        <methods>
+          <include name="testcase8_sortingsearch"/>
+          <include name="launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- firstpackage.Project_First.Testcase8_SortingSearchproduct -->
+      <class name="firstpackage.Project_First.TestCase7_ReviewProductDetails">
+        <methods>
+          <include name="launch"/>
+          <include name="TestCase7_reviewproduct"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- firstpackage.Project_First.TestCase7_ReviewProductDetails -->
+      <class name="firstpackage.Project_First.Testcase6_SearchingVthFilters">
+        <methods>
+          <include name="launch"/>
+          <include name="testcase6_searchingwithfilters"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- firstpackage.Project_First.Testcase6_SearchingVthFilters -->
+      <class name="firstpackage.Project_First.Testcase12_SelectEachPayment">
+        <methods>
+          <include name="launch"/>
+          <include name="testcase12_selectpayment"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- firstpackage.Project_First.Testcase12_SelectEachPayment -->
+      <class name="firstpackage.Project_First.Testcase4_EditprofileInfo">
+        <methods>
+          <include name="Testcase4_changeprofile"/>
+          <include name="launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- firstpackage.Project_First.Testcase4_EditprofileInfo -->
+      <class name="firstpackage.Project_First.Testcase11_CompleteCheckout">
+        <methods>
+          <include name="launch"/>
+          <include name="testcase11_completechckout"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- firstpackage.Project_First.Testcase11_CompleteCheckout -->
+      <class name="firstpackage.Project_First.Testcase5_SearchingItem">
+        <methods>
+          <include name="launch"/>
+          <include name="testcase5_searching" invocation-numbers="0 1 2 3"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- firstpackage.Project_First.Testcase5_SearchingItem -->
+      <class name="firstpackage.Project_First.Testcase14_GiveRatings">
+        <methods>
+          <include name="testcase14_givingrating"/>
+          <include name="launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- firstpackage.Project_First.Testcase14_GiveRatings -->
+      <class name="firstpackage.Project_First.Testcase10_UpdateQuatitiesandRemovingCart">
+        <methods>
+          <include name="testcase10_updateandremoveincart"/>
+          <include name="launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- firstpackage.Project_First.Testcase10_UpdateQuatitiesandRemovingCart -->
+      <class name="firstpackage.Project_First.Testcase9_Add2Shoppingcart">
+        <methods>
+          <include name="launch"/>
+          <include name="quit"/>
+          <include name="testcase9_addshoppingcart"/>
+        </methods>
+      </class> <!-- firstpackage.Project_First.Testcase9_Add2Shoppingcart -->
+      <class name="firstpackage.Project_First.Testcase3_LoginwithInvalidCredential">
+        <methods>
+          <include name="launch"/>
+          <include name="Testcase3_loginwithinvalid"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- firstpackage.Project_First.Testcase3_LoginwithInvalidCredential -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
